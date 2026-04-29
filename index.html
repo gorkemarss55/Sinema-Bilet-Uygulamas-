@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinema Bilet Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h3 class="title">Siname Bileti</h3>
+        </div>
+        <div class="seatMain">
+            <div class="row">
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+            </div>
+            <div class="row">
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+            </div>
+            <div class="row">
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+            </div>
+            <div class="row">
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+            </div>
+            <div class="row">
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-duotone fa-solid fa-couch"></i></div>
+
+
+            </div>
+            <div class="movieMain">
+                <select id="movieSelect">
+                    <option value="100">Film 1</option>
+                    <option value="150">Film 2</option>
+                    <option value="180">Film 3</option>
+                </select>
+
+            </div>
+            <div class="statusMain">
+                <div class="row">
+                    <div id="Empty"><i class="fa-duotone fa-solid fa-couch"></i> <span>Boş</span></div>
+                </div>
+                <div class="row">
+                    <div id="Selected"><i class="fa-duotone fa-solid fa-couch"></i> <span>Seçili</span></div>
+                </div>
+                <div class="row">
+                    <div id="Full"><i class="fa-duotone fa-solid fa-couch"></i> <span>Dolu</span></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="resultTextMain">
+            <p><span id="count">0</span> Adet bilet için ödenecek tutar <span id="amount">0</span> TL.</p>
+        </div>
+        <div class="buttonMain">
+            <button id="buybutton" type="button">Satın Al</button>
+            <button id="clearbutton" type="button">Temizle</button>
+        </div>
+
+    </div>
+    <script src="storage.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(47, 44, 44);
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.seat{
+    font-size: 30px;
+    margin: 8px;
+    color: lightgrey;
+}
+.title{
+    color: lightgrey;
+    font-size: 30px;
+    
+}
+.movieMain{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top:15px;
+}
+#movieSelect{
+    width: 80px;
+    padding: 7px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.statusMain{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.statusMain >.row > div{
+    margin-right: 30px;
+}
+#Empty{
+    color: lightgrey;
+    font-size: 20px;
+}
+#Selected{
+    color: yellow;
+    font-size: 20px;
+}
+#Full{
+    color: red;
+    font-size: 20px;
+}
+.resultTextMain{
+    margin-top: 15px;
+}
+.resultTextMain > p{
+    color: lightgrey;
+    font-size: 18px;
+}
+.resultTextMain >p> span{
+    color: yellow;
+} 
+.buttonMain{
+    margin-top: 15px;
+}
+#buybutton{
+    color: lightgrey;
+    width: 75px;
+    height: 25px;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-right: 10px;
+    background-color: rgb(12, 146, 59);
+    border: none;
+}
+#clearbutton{
+    color: lightgrey;
+    width: 75px;
+    height: 25px;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-right: 10px;
+    background-color: rgb(219, 28, 28);
+    border: none;
+}
+.seat:not(.full):hover{
+    transform:scale(1.2) ;
+}
+/* KOLTUK RENKLERİ */
+.full{
+color: red;
+}
+
+.empty{
+    color: lightgrey;
+}
+.selected{
+    color: yellow;
+}
